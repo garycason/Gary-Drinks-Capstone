@@ -1,0 +1,89 @@
+//database.json
+
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "example@example.com",
+      "password": "examplePassword"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "drinkName": "Mojito",
+      "drinkDescription": "A refreshing classic rum and mint cocktail. Perfect for drinking by a pool!",
+      "imageURL": "public/images/mojito.webp"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "drinkName": "Margarita",
+      "drinkDescription": "A tangy tequila drink. Served on the rocks or frozen.",
+      "imageURL": "public/images/margarita.webp"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "ingredientName": "Rum"
+    },
+    {
+      "id": 2,
+      "ingredientName": "Mint"
+    },
+    {
+      "id": 3,
+      "ingredientName": "Lime Juice"
+    },
+    {
+      "id": 4,
+      "ingredientName": "Sugar"
+    },
+    {
+      "id": 5,
+      "ingredientName": "Soda Water"
+    },
+    {
+      "id": 6,
+      "ingredientName": "Tequila"
+    },
+    {
+      "id": 7,
+      "ingredientName": "Triple Sec"
+    },
+    {
+      "id": 8,
+      "ingredientName": "Salt"
+    }
+  ],
+  "drinkIngredients": [
+    {
+      "id": 1,
+      "drinkId": 1,
+      "ingredientId": 1
+    },
+    {
+      "id": 2,
+      "drinkId": 1,
+      "ingredientId": 2
+    },
+    {
+      "id": 3,
+      "drinkId": 1,
+      "ingredientId": 3
+    },
+    {
+      "id": 4,
+      "drinkId": 1,
+      "ingredientId": 4
+    },
+    {
+      "id": 5,
+      "drinkId": 1,
+      "ingredientId": 5
+    }
+  ]
+}
