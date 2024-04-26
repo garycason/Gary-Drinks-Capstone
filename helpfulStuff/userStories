@@ -1,0 +1,46 @@
+#Problem Solved
+
+
+My website will be a place where all Bartenders and mixology enthusiasts can come and catalog their drinks they have been making. That way there never forget drinks that they like, and can also find other ideas from other people. This project will consist of a list of all drinks that have been added to the website.
+
+
+
+
+# user stories
+
+
+1. As a cocktail enthusiast,
+I want to be able to add a new cocktail recipe,
+So that I can share my favorite drinks that I make with the world.
+Given I am logged in on Gary’s Drink Encyclopedia 
+When I fill out the recipe info on Add Drinks and press submit Your drink,
+Then the recipe is added to the public drink list for everybody who views the website.
+
+
+2. As a user,
+I want to be able to update existing recipes, 
+So that I can correct errors.
+Given I am viewing my drinks on the my drinks page,
+When I click the edit drink button and resubmit the edited information,
+Then the recipe on the website is updated to reflect those changes.
+3. As a user,
+I want to be able to delete existing recipes, 
+So that I can get rid of drinks I don't drink anymore.
+Given I am on the my drinks page,
+When I select a recipe and choose the delete option,
+Then the recipe is removed from the website.
+
+
+4. As a user,
+I want to be able to view all the cocktails recipes, 
+So that I can find new ideas for drinks to make.
+Given I am on the “All Drinks” page,
+When I scroll through the page,
+Then I can see all the cocktails users submitted including myself.
+
+
+
+
+# stretch goals
+1. I want to be able to search for cocktails by spirit, ingredients and glassware.
+2.I want to be able to add comments to other peoples cocktail recipes.

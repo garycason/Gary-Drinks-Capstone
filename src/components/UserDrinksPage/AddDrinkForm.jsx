@@ -1,5 +1,6 @@
 // src/components/UserDrinks/AddDrinkForm.jsx
 import { useState } from "react";
+import { addDrink } from "../../services/AddDrinksService.jsx";
 import "./AddDrinkForm.css";
 
 const AddDrinkForm = () => {
@@ -102,9 +103,18 @@ const AddDrinkForm = () => {
     setDrinkData({ ...drinkData, image: file });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async(event) => {
     event.preventDefault();
-    alert("Form submission logic to be implemented!");
+    
+
+
+    try {
+      const result = await addDrink(drinkData)
+      console.log('Drink added:', result)
+      window.alert('Drink Added')
+    }catch (error){
+      console.error('Failed to add drink:' , error)
+    }
   };
 
   return (

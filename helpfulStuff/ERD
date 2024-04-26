@@ -1,0 +1,30 @@
+Table User {
+  id int [pk]
+  username varchar
+  email varchar
+  password varchar
+}
+
+Table Drink {
+  id int [pk]
+  userId int
+  drinkName varchar
+  drinkDescription varchar
+  imageURL varchar
+}
+
+Ref: Drink.userId > User.id
+
+Table Ingredients {
+  id int [pk]
+  ingredientName varchar
+}
+
+Table DrinkIngredients {
+  id int [pk]
+  drinkId int
+  ingredientId int
+}
+
+Ref: DrinkIngredients.drinkId > Drink.id
+Ref: DrinkIngredients.ingredientId > Ingredients.id
