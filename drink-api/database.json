@@ -11,7 +11,7 @@
     {
       "id": 1,
       "userId": 1,
-      "drinkName": "Mojito",
+      "drinkName": "Margarita",
       "drinkDescription": "A refreshing classic rum and mint cocktail. Perfect for drinking by a pool!",
       "imageURL": "public/images/mojito.webp"
     },
@@ -21,71 +21,6 @@
       "drinkName": "Margarita",
       "drinkDescription": "A tangy tequila drink. Served on the rocks or frozen.",
       "imageURL": "public/images/margarita.webp"
-    },
-    {
-      "drinkName": "Paloma",
-      "drinkDescription": "A Paloma is a refreshing and popular cocktail from Mexico, celebrated for its perfect balance of sweet and tart flavors with a grapefruit base. Traditionally, it consists of tequila, which provides a robust and earthy backbone, mixed with grapefruit juice or grapefruit-flavored soda, which adds a tangy and slightly bitter twist. Lime juice is often included to enhance the citrus profile, and the drink is usually sweetened with a bit of simple syrup or agave nectar to round out the flavors.\n\nThe Paloma is typically served in a highball glass over ice and garnished with a slice of lime or a grapefruit wedge. Sometimes, the rim of the glass is salted, adding a savory contrast that complements the sweet and citrusy elements of the cocktail. It's considered a lighter alternative to the Margarita and is especially popular for its thirst-quenching qualities in warm climates.",
-      "ingredients": {
-        "spirits": [
-          "Tequila"
-        ],
-        "liqueurs": [],
-        "mixers": [
-          "Lime Juice",
-          "Grapefruit Juice",
-          "Simple Syrup"
-        ],
-        "garnishes": [
-          "Orange Slice"
-        ]
-      },
-      "image": {},
-      "id": 3
-    },
-    {
-      "drinkName": "Paloma",
-      "drinkDescription": "A Paloma is a refreshing and popular cocktail from Mexico, celebrated for its perfect balance of sweet and tart flavors with a grapefruit base. Traditionally, it consists of tequila, which provides a robust and earthy backbone, mixed with grapefruit juice or grapefruit-flavored soda, which adds a tangy and slightly bitter twist. Lime juice is often included to enhance the citrus profile, and the drink is usually sweetened with a bit of simple syrup or agave nectar to round out the flavors.\n\nThe Paloma is typically served in a highball glass over ice and garnished with a slice of lime or a grapefruit wedge. Sometimes, the rim of the glass is salted, adding a savory contrast that complements the sweet and citrusy elements of the cocktail. It's considered a lighter alternative to the Margarita and is especially popular for its thirst-quenching qualities in warm climates.",
-      "ingredients": {
-        "spirits": [
-          "Tequila"
-        ],
-        "liqueurs": [],
-        "mixers": [
-          "Lime Juice",
-          "Grapefruit Juice",
-          "Simple Syrup"
-        ],
-        "garnishes": [
-          "Orange Slice"
-        ]
-      },
-      "image": {},
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "drinkName": "Paloma",
-      "drinkDescription": "\nA Paloma is a refreshing and popular cocktail from Mexico, celebrated for its perfect balance of sweet and tart flavors with a grapefruit base. Traditionally, it consists of tequila, which provides a robust and earthy backbone, mixed with grapefruit juice or grapefruit-flavored soda, which adds a tangy and slightly bitter twist. Lime juice is often included to enhance the citrus profile, and the drink is usually sweetened with a bit of simple syrup or agave nectar to round out the flavors.\n\nThe Paloma is typically served in a highball glass over ice and garnished with a slice of lime or a grapefruit wedge. Sometimes, the rim of the glass is salted, adding a savory contrast that complements the sweet and citrusy elements of the cocktail. It's considered a lighter alternative to the Margarita and is especially popular for its thirst-quenching qualities in warm climates.\n",
-      "ingredients": {
-        "spirits": [
-          "Tequila"
-        ],
-        "liqueurs": [
-          "Grand Marnier"
-        ],
-        "mixers": [
-          "Lime Juice",
-          "Simple Syrup",
-          "Grapefruit Juice"
-        ],
-        "garnishes": [
-          "Orange Slice"
-        ]
-      },
-      "image": {},
-      "id": 6
     }
   ],
   "ingredients": [

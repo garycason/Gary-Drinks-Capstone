@@ -1,21 +1,35 @@
-// src/components/DrinkListPage/DrinkListPage.jsx
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { getAllDrinks } from '../../services/AllDrinksService';
 import './DrinkListPage.css';
+import { deleteDrink } from '../../services/deleteDrinkService.js';
 
 const DrinkListPage = () => {
   const [drinks, setDrinks] = useState([]);
+  const navigate = useNavigate(); // Initialize navigate hook
 
   useEffect(() => {
-    // Call the getAllDrinks service which returns a promise
     getAllDrinks()
       .then((drinksData) => {
-        setDrinks(drinksData); // When the promise resolves, update the state
+        setDrinks(drinksData);
       })
       .catch((error) => {
         console.error('Failed to fetch drinks:', error);
       });
-  }, []); // Empty dependency array means this effect will only run once on mount
+  }, []);
+
+  const handleDelete = async (drinkId) => {
+    if(window.confirm('Are you sure you want to delete this drink?')) {
+      try {
+        await deleteDrink(drinkId);
+        const updatedDrinks = drinks.filter(drink => drink.id !== drinkId);
+        setDrinks(updatedDrinks);
+        console.log(`Drink with id ${drinkId} deleted.`);
+      } catch (error) {
+        console.error('Failed to delete drink:', error);
+      }
+    }
+  };
 
   return (
     <div>
@@ -26,6 +40,8 @@ const DrinkListPage = () => {
             <h2>{drink.drinkName}</h2>
             <p>{drink.drinkDescription}</p>
             <img src={drink.imageURL} alt={drink.drinkName} style={{ maxWidth: '150px' }} />
+            <button onClick={() => navigate(`/edit-drink/${drink.id}`)}>Edit Drink</button> 
+            <button onClick={() => handleDelete(drink.id)}>Delete Drink</button>
           </div>
         ))}
       </div>
