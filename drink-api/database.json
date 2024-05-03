@@ -9,18 +9,66 @@
   ],
   "drinks": [
     {
-      "id": 1,
-      "userId": 1,
-      "drinkName": "Margarita",
-      "drinkDescription": "A refreshing classic rum and mint cocktail. Perfect for drinking by a pool!",
-      "imageURL": "public/images/mojito.webp"
+      "drinkName": "Moscow Mule",
+      "drinkDescription": "\nImagine a drink that's like a cool breeze on a hot summer day. It's served in a shiny, frosty copper mug that feels like it's been chilled just for you. With every sip, you taste a refreshing blend of flavors that dance on your tongue, leaving you feeling refreshed and invigorated. It's the kind of drink that makes you think of lively conversations with friends, laughter in the air, and moments that you'll remember long after the glass is empty. That's the magic of a Moscow Mule.",
+      "ingredients": {
+        "spirits": [
+          "Vodka"
+        ],
+        "liqueurs": [],
+        "mixers": [
+          "Ginger Ale"
+        ],
+        "garnishes": [
+          "Mint"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/mzXOAWTZafpmLcJVo8jH6HJujrYF1hS-11M58-zQ7kI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YWNvdXBsZWNvb2tz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wNi9Nb3Nj/b3ctTXVsZS0wNjIu/anBn",
+      "userId": "Bob Harper",
+      "id": 3
     },
     {
-      "id": 2,
-      "userId": 1,
       "drinkName": "Margarita",
-      "drinkDescription": "A tangy tequila drink. Served on the rocks or frozen.",
-      "imageURL": "public/images/margarita.webp"
+      "drinkDescription": "Tangy tequila drink which originated from Latin America.",
+      "ingredients": {
+        "spirits": [
+          "Tequila"
+        ],
+        "liqueurs": [
+          "Grand Marnier"
+        ],
+        "mixers": [
+          "Lime Juice",
+          "Sour Mix"
+        ],
+        "garnishes": [
+          "Salt Rim"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/ullazG2EWTtfdNJ1j571_tILNc8NCyyKf1nBcDjAmkA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzE3Lzk5Lzg4/LzM2MF9GXzE3OTk4/ODMxX0Z5N0pWUmkw/OHY3RkhTRWloSVJL/RE5oc2l5eU40NzBB/LmpwZw",
+      "userId": "Gary Cason",
+      "id": 4
+    },
+    {
+      "drinkName": "Old Fashioned",
+      "drinkDescription": "Traditional Bourbon cocktail. Best served with a cigar",
+      "ingredients": {
+        "spirits": [
+          "Bourbon"
+        ],
+        "liqueurs": [],
+        "mixers": [
+          "Club Soda",
+          "Simple Syrup"
+        ],
+        "garnishes": [
+          "Luxardo Cherry",
+          "Orange Slice"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/mGviUMH-qygPJ4bApzcxXV4vrRSbjvaMOulc0i1Py14/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwMS5ueXQuY29t/L2ltYWdlcy8yMDIz/LzEwLzE3L211bHRp/bWVkaWEvUlMtT2xk/LUZhc2hpb25lZC1m/aHd2L1JTLU9sZC1G/YXNoaW9uZWQtZmh3/di1hcnRpY2xlTGFy/Z2UuanBnP3dpZHRo/PTEyODAmcXVhbGl0/eT03NSZhdXRvPXdl/YnA",
+      "userId": "Laura Cason",
+      "id": 5
     }
   ],
   "ingredients": [
